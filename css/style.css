@@ -1,0 +1,63 @@
+/*selsktor znacznika*/
+
+p {
+    color: orange;
+}
+
+
+/*selsktor paragrafu*/
+
+#paragraf {
+    color: violet;
+}
+
+
+/*selsktor  klasy*/
+
+.klasa-paragrafu {
+    color: green;
+}
+
+
+/*łaczenie znaczników*/
+
+a,
+span,
+div {
+    color: blue;
+}
+
+
+/*selsektor z bezpośredniego elemntu potomnego: */
+
+li>a {
+    color: aqua;
+}
+
+
+/*selektor elemntu potomnego*/
+
+div a {
+    color: black;
+}
+
+
+/*seslektor wykluczajacy*/
+
+#lista-agnieszki > li:not(.wykluczony) {
+    color: pink;
+}
+
+/*selektor kolejnego elemntu ptomnego*/
+ul#lista-karoliny >ol {
+    background-color: aquamarine;
+    color: darkblue;
+    border-bottom: 1px solid black;
+}
+
+ul#lista-karoliny > olnth-child(3) {
+    color: red;
+}
+
+
+
